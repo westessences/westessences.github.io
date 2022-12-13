@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="40x40" href="./img/logo2.png">
+    <!----------Css--------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+    <!----------Css--------->
+    <link rel="stylesheet" href="./css/estilo.css">
+    <!-------Javascript----->
+    <script defer  src="./index.js"></script>
+    <title>West Essences</title>
+</head>
+<body>
+
+    <nav>
+        <div id="logo"><a href="#vapes"><span>West</span>Essences</a></div>
+        <ul class="nav_links">
+            <li class="nav-link"><a href="#vapes">Vapes</a></li>
+            <!---------<li class="nav-link"><a href="#shop">Shop</a></li>---->
+            <li class="nav-link"><a href="#nosotros">Nosotros</a></li>
+            <li class="nav-link"><a href="#faqs">FAQs</a></li>
+            <li class="nav-link"><a href="#contacts">Contacto</a></li>
+        </ul>
+        <div id="burger">
+            <ion-icon name="menu-sharp"></ion-icon>
+        </div>
+    </nav>
+
+    <div id="vapes">
+        <div id="vapos" class="bg-black">
+            <img id="vaposImg" class="easeIn" src="./img/fondoNegroVapo2500.png">
+            <div class="vaposTexto">
+                <p id="descripcion" class="smText">Vaporizador electronico descartable de 2500 Puffs. Diseño ergonomico y facil de transportar. Bateria duradera de 1000 mah NO recargable. Contiene nicotina. Variedad de sabores disponibles. Consultar stock.</p>
+                <p id="precio" class="azul mdText">$6400</p>
+            </div>
+        </div>
+        <div id="botones">
+            <h3 id="btn2500" class="bg-black white borderBlue mdText">2500 Puffs</h3>
+            <h3 id="btn3500" class="bg-black white mdText">3500 Puffs</h3>
+        </div>
+    </div>
+
+    <!---------------
+
+    <div id="shop">
+        <div class="vapeUnit">
+            <img src="./img/strawberryMango.jpg" alt="">
+            <div>
+                <h3 class="smText">Strawberry Mango</h3>
+                <h4 class="xsText">Stock: Disponible</h4>
+            </div>
+        </div>
+        <div class="vapeUnit">
+            <img src="./img/pinaColada.jpg" alt="">
+            <div>
+                <h3 class="smText">Piña colada</h3>
+                <h4 class="xsText">Stock: Disponible</h4>
+            </div>
+        </div>
+        <div class="vapeUnit">
+            <img src="./img/strawberryBanana.jpg" alt="">
+            <div>
+                <h3 class="smText">Strawberry Banana</h3>
+                <h4 class="xsText">Stock: Disponible</h4>
+            </div>
+        </div>
+        <div class="vapeUnit">
+            <img src="./img/lushIce2500.jpg" alt="">
+            <div>
+                <h3 class="smText">Lush Ice</h3>
+                <h4 class="xsText">Stock: Disponible</h4>
+            </div>
+        </div>
+        <div class="vapeUnit">
+            <img src="./img/blueberryMint2500.jpg" alt="">
+            <div>
+                <h3 class="smText">Blueberry Mint</h3>
+                <h4 class="xsText">Stock: Disponible</h4>
+            </div>
+        </div>
+        <div class="vapeUnit">
+            <img src="./img/mintIce2500.jpg" alt="">
+            <div>
+                <h3 class="smText">Mint Ice</h3>
+                <h4 class="xsText">Stock: Disponible</h4>
+            </div>
+        </div>
+        <div class="vapeUnit">
+            <img src="./img/lushIce2500.jpg" alt="">
+            <div>
+                <h3 class="smText">Lush Ice</h3>
+                <h4 class="xsText">Stock: Disponible</h4>
+            </div>
+        </div>
+        <div class="vapeUnit">
+            <img src="./img/blueberryMint2500.jpg" alt="">
+            <div>
+                <h3 class="smText">Blueberry Mint</h3>
+                <h4 class="xsText">Stock: Disponible</h4>
+            </div>
+        </div>
+        <div class="vapeUnit">
+            <img src="./img/mintIce2500.jpg" alt="">
+            <div>
+                <h3 class="smText">Mint Ice</h3>
+                <h4 class="xsText">Stock: Disponible</h4>
+            </div>
+        </div>
+    </div>
+
+    ---------------->
+
+    <section id="nosotros">
+        <h3>Por que <br>elegirnos?</h3>
+        <ul class="mostrar"> 
+            <li class="smText"><ion-icon name="checkmark"></ion-icon>Productos originales.</li>
+            <li class="smText"><ion-icon name="checkmark"></ion-icon>Los mejores precios del mercado.</li>
+            <li class="smText"><ion-icon name="checkmark"></ion-icon>Garantia de calidad.</li>
+            <li class="smText"><ion-icon name="checkmark"></ion-icon>Atencion personalizada.</li>
+            <li class="smText"><ion-icon name="checkmark"></ion-icon>Envios al instante.</li>
+        </ul>
+    </section>
+
+    <!---------
+    <section id="cards">
+        <div id="cardContainer" class="mostrar">
+            <div>
+                <ion-icon name="cube-outline"></ion-icon>
+                <h3 class="mdText">Envios al instante</h3>
+                <p class="smText"> Envios a todo el pais mediante correo argentino. Capital federal y alrededores por moto mensajeria. Consultar precios de envio y demora previo a la compra.</p>
+            </div>
+            <div>
+                <ion-icon name="chatbubbles-outline"></ion-icon>
+                <h3 class="mdText">Atencion personalizada</h3>
+                <p class="smText">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod architecto ad, officia aliquam nostrum repellat error, quaerat consectetur suscipit.
+            </div>
+            <div>
+                <ion-icon name="cash-outline"></ion-icon>
+                <h3 class="mdText">Los mejores precios</h3>
+                <p class="smText">Contamos con los mejores precios del mercado y las mejores promociones para que siempre puedas tener nuestros vaporizadores con vos.</p>
+            </div>
+        </div>
+    </section>
+---------------->
+
+    <div id="faqs">
+        <h3 class="mdText">Preguntas frecuentes</h2>
+        <ul class="mostrar">
+            <li class="pregunta smText">¿Los vaporizadores son originales?</li>
+            <li class="respuesta smText">Todos los vaporizadores son originales y cuentan con el qr escaneable para verificar su autenticidad.</li>
+            <li class="pregunta smText">¿Como se puede pagar?</li>
+            <li class="respuesta smText"> Se puede abonar por meracadopago o transferencia bancaria.</li>
+            <li class="pregunta smText">¿como son los envios y cuanto demoran?</li>
+            <li class="respuesta smText">Los envios se hacen por moto mensajeria o correo argentino. Tienen un tiempo de demora estimado de 2 dias habiles para CABA/ GBA y 5 dias habiles para el interior del pais.</li>
+            <li class="pregunta smText">¿Cuanto duran los vaporizadores?</li>
+            <li class="respuesta smText">Los vaporizadores tienen una duracion de 2500 y 3500 puffs (2500 y 3500 inhalaciones respectivamente).</li>
+            <li class="pregunta smText">¿Los vaporizadores son recargables?</li>
+            <li class="respuesta smText">Los vaporizadores <b>No</b> son recargables y no deben ser recargados ya que pueden funcionar mal y hasta explotar. WestEssences <b>no</b> recomienda bajo ninguna cirunstancia que los vaporizadores se abran o manipulen.</li>
+        </ul>
+    </div>
+
+    <div id="contacts">
+        <div class="contactsDiv">
+            <div class="linkContainer">
+                <h3 class="mdText">Whatsapp</h3>
+                <a href="https://l.instagram.com/?u=https%3A%2F%2Fwa.me%2Fmessage%2FA4IGF3USX2W2M1&e=ATNkA3nMP1PTYKHzMF6-QolY85_f1kuBHxYehMyziFftegmSLS836qZoD9xCNdOKKx5O67IM7CnFFtfCsh5oHg&s=1" class="smText wppLink" target="_blank">wa.link</a>
+            </div>
+            <div class="linkContainer">
+                <h3 class="mdText">Instagram</h3>
+                <a href="https://www.instagram.com/west.essences/" target="_blank" class="smText igLink">instagram.com/west.essences/</a>
+            </div>
+            <div class="imagesContainer">
+                <img class='img1' src="./img/fumeLogo.png" alt="">
+                <img class='img2' src="./img/Supreme_Logo.svg.png" alt="">
+            </div>
+            <h3 class="xsText footerText">West Essences® es una marca registrada. Todos los derechos reservados.</h3>
+        </div>
+    </div>
+    
+
+    <!------------
+    <footer>
+        <div class="leftDiv">
+            <h3 class="smText">West Essences® es una marca registrada</h3>
+            <div class="leftDivContacts">
+                <a href="https://www.instagram.com/west.essences/" target="_blank" class="smText igLink"><ion-icon name="logo-instagram" ></ion-icon></a>
+                <a href="https://l.instagram.com/?u=https%3A%2F%2Fwa.me%2Fmessage%2FA4IGF3USX2W2M1&e=ATNkA3nMP1PTYKHzMF6-QolY85_f1kuBHxYehMyziFftegmSLS836qZoD9xCNdOKKx5O67IM7CnFFtfCsh5oHg&s=1" class="smText wppLink" target="_blank"><ion-icon name="logo-whatsapp"></ion-icon></a>
+            </div>
+        </div>
+        <ul class="footerLinks">
+            <li class="footer-link xsText"><a href="#shop">Shop</a></li>
+            <li class="footer-link xsText"><a href="#cards">Nosotros</a></li>
+            <li class="footer-link xsText"><a href="#faqs">FAQs</a></li>
+            <li class="footer-link xsText"><a href="#contacts">Contacto</a></li>
+        </ul>    
+    </footer>------------->
+
+    
+    <!-------Ion-icons------>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script> 
+
+</body>
+</html>
