@@ -35,8 +35,8 @@ function cambiarVapo() {
 
     btn3500.addEventListener('click', ()=> {
         vaposBg.classList = 'fdrr bg-black'
-        btn3500.classList = 'bg-black white borderGreen'
-        btn2500.classList = 'bg-black white'
+        btn3500.classList = 'bg-black white borderGreen backgroundGreen'
+        btn2500.classList = 'bg-black white borderBlue'
         precio.classList = 'verde'
         precio.innerText = '$8000'
         vaposImg.src = './img/fondonegrovapo3500.png'
@@ -46,8 +46,8 @@ function cambiarVapo() {
     btn2500.addEventListener('click', ()=> {
         vaposBg.classList = 'fdr bg-black'
         vaposImg.src = './img/fondoNegroVapo2500.png'
-        btn2500.classList = 'bg-black white borderBlue'
-        btn3500.classList = 'bg-black white'
+        btn2500.classList = 'bg-black white borderBlue backgroundBlue'
+        btn3500.classList = 'bg-black white borderGreen'
         precio.classList = 'azul'
         precio.innerText = '$6400'
         descripcion.innerText = `VAPORIZADOR ELECTRONICO DESCARTABLE 2500 PUFFS. DISEÑO ERGONOMICO Y FACIL DE TRANSPORTAR. BATERIA DURADERA DE 1000 MAH. CONTIENE NICOTINA. VARIEDAD DE SABORES DISPONIBLES. Consultar stock.`

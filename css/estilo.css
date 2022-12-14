@@ -42,6 +42,12 @@
 .borderBlue {
   border: 2px solid #313475; }
 
+.backgroundGreen {
+  background-color: #86e300; }
+
+.backgroundBlue {
+  background-color: #313475; }
+
 .mostrar {
   position: relative;
   transform: translateY(100px);
@@ -144,7 +150,7 @@ nav {
     #vapes #botones #btn2500, #vapes #botones #btn3500 {
       margin: 0 30px;
       padding: 10px 15px;
-      border-radius: 2px;
+      border-radius: 5px;
       color: white;
       font-size: 14px;
       font-weight: 400;
@@ -344,6 +350,8 @@ nav {
     background-color: black;
     transform: translateX(100%);
     transition: all 0.5s ease-in-out; }
+    nav .nav_links li {
+      margin-left: 0; }
   nav .nav_active {
     transform: translateX(0%); }
   nav #burger {
@@ -365,15 +373,17 @@ nav {
   nav .logo a {
     font-size: 18px;
     margin: 0 auto 0 30px; }
-  #vapes #vapos {
-    padding: 0px 20px; }
-    #vapes #vapos .vaposTexto #descripcion {
-      font-size: 15px; }
-    #vapes #vapos .vaposTexto #precio {
-      font-size: 16px; }
-    #vapes #vapos #vaposImg {
-      width: 250px;
-      padding-bottom: 20px; }
+  #vapes {
+    padding-bottom: 10vh; }
+    #vapes #vapos {
+      padding: 0px 20px; }
+      #vapes #vapos .vaposTexto #descripcion {
+        font-size: 15px; }
+      #vapes #vapos .vaposTexto #precio {
+        font-size: 16px; }
+      #vapes #vapos #vaposImg {
+        width: 225px;
+        padding-bottom: 5px; }
   #nosotros #cardContainer {
     flex-direction: column;
     justify-content: center; }
